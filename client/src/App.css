@@ -1,4 +1,4 @@
-.logo {
+/* .logo {
     width: 100px;
 }
 
@@ -8,4 +8,9 @@
 
 .message:hover {
     background-color: yellow;
-}
+} */
+
+.App {
+    text-align: center;
+  }
+  
