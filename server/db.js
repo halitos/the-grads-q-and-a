@@ -1,4 +1,4 @@
-const { Pool } = require('pg')
+const { Pool } = require("pg")
 
 let pool;
 let config;
@@ -13,12 +13,13 @@ if (process.env.DATABASE_URL) { //it's set in Heroku
     }
   }
 } else { //default local config
-  config = {
-    host: 'localhost',
-    database: 'cyf_hotel',
-    password: '',
-    port: 5432
-  }
+	config = {
+		user: "44788",
+		host: "localhost",
+		database: "q_a",
+		password: "sinead1507",
+		port: 5432,
+	};
 }
 pool = new Pool(config)  
 
