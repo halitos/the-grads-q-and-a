@@ -1,7 +1,6 @@
 {
   "env": {
     "es6": true,
-    "linebreak-style": 0,
     "node": true
   },
   "extends": [
